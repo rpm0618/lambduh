@@ -1,0 +1,29 @@
+{
+  "name": "lambduh",
+  "version": "0.1.0",
+  "description": "A simple, typesafe library for handling API Gateway events on AWS Lambda",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "serverless"
+  ],
+  "author": "Ryan McVeety",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "0.0.19",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.142.0",
+    "class-transformer": "^0.1.8",
+    "class-transformer-validator": "^0.4.0",
+    "class-validator": "^0.7.3"
+  }
+}
